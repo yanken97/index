@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        h3 , p {
+            font-family: Roboto;
+        }
+        .header{
+            background-color:blue;
+            height:50px;
+        
+        }
+        .nav{
+            background-color: beige;
+            height:50px;
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .div1{
+            background-color: aquamarine;
+            width:200px;
+        }
+        .div2{
+            background-color: rgb(68, 161, 130);
+            width:200px;
+        }
+        .div3{
+            background-color: rgb(108, 115, 113);
+            width:200px;
+        }
+
+        .div4{
+            background-color: rgb(212, 45, 126);
+            width:200px
+        }
+
+        .main{
+            display:grid;
+            grid-template-columns: 400px 1fr;
+            height:1000px;
+            grid-gap:2px;
+        }
+        .left{
+            
+        }
+        .left-1{
+            height:25%;
+        }
+        .left-2{
+            height:25%;
+        }
+        .left-3{
+            height:25%;
+
+        }
+        .left-4{
+            height:25%;
+        }
+        .right{
+            
+        }
+        .stats{
+            display:inline-block;
+            margin-top:0px;
+            color:gray;
+            font-size:12px;
+        }
+        .title{
+            display:inline-block;
+            margin-top:0px;
+            font-size:14px;
+        }
+        .footer{
+            background-color: blueviolet;
+            height:50px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="header-left"></div>
+        <div class="header-middle"></div>
+        <div class="header-right"></div>
+    </div>
+    <div class="nav">
+        <div class="div1"><h3>Phim hoạt hình</h3></div>
+        <div class="div2"><h3>Phim hoạt hình yêu thích</h3></div>
+        <div class="div3"><h3>Nhân vật hoạt hình</h3></div>
+        <div class="div4"><h3>Góp ý</h3></div>
+    </div>
+    <div class="main">
+        <div class="left">
+            <div class="left-1">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/965230/capsule_616x353.jpg?t=1630580313" alt="ảnh 1" width="400px" height="auto">
+                <h3 class="title">Thế Giới Doraemon</h3>
+                <p class="stats"> &#183; 3.6M views</p>
+            </div>
+            <div class="left-2">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/965230/capsule_616x353.jpg?t=1630580313" alt="ảnh 1" width="400px" height="auto">
+                <h3 class="title">Thế Giới Doraemon</h3>
+                <p class="stats"> &#183; 3.6M views</p>
+            </div>
+            <div class="left-3">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/965230/capsule_616x353.jpg?t=1630580313" alt="ảnh 1" width="400px" height="auto">
+                <h3 class="title">Thế Giới Doraemon</h3>
+                <p class="stats"> &#183; 3.6M views</p>
+            </div>
+            <div class="left-4">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/965230/capsule_616x353.jpg?t=1630580313" alt="ảnh 1" width="400px" height="auto">
+                <h3 class="title">Thế Giới Doraemon</h3>
+                <p class="stats"> &#183; 3.6M views</p>
+            </div>
+        </div>
+        <div class="right">
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/965230/capsule_616x353.jpg?t=1630580313" alt="ảnh 1" width="600px" height="auto">
+            <p class="title">Thế Giới Doraemon</p>
+            <p class="stats"> &#183; 3.6M views</p>
+        </div>
+    </div>
+    <div class="footer"></div>
+</body>
+</html>
