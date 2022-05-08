@@ -13,42 +13,54 @@
             font-family: Roboto;
         }
         .header{
-            background-color:blue;
+            background-image:url('https://animefull.tv/Theme/images/logo-animefull-normal.png?v0.1');
             height:50px;
+            background-size:contain;
+            background-repeat:no-repeat;
         
         }
         .nav{
-            background-color: beige;
+            background-color:white;
             height:50px;
             display:flex;
             flex-direction: row;
             justify-content: center;
         }
         .div1{
-            background-color: aquamarine;
+            
             width:200px;
+            font-size:14px;
+            text-align: center;
         }
         .div2{
-            background-color: rgb(68, 161, 130);
+            
             width:200px;
+            font-size:14px;
+            text-align: center;
         }
         .div3{
-            background-color: rgb(108, 115, 113);
+           
             width:200px;
+            font-size:14px;
+            text-align: center;
         }
 
         .div4{
-            background-color: rgb(212, 45, 126);
-            width:200px
+           
+            width:100px;
+            font-size:14px;
+            text-align: center;
         }
 
         .main{
             display:grid;
-            grid-template-columns: 400px 1fr;
+            grid-template-columns: 500px 1fr;
             height:1000px;
             grid-gap:2px;
+            margin-top:50px;
         }
         .left{
+        
             
         }
         .left-1{
@@ -64,7 +76,10 @@
         .left-4{
             height:25%;
         }
-        .right{
+        .right video{
+            display:block;
+            width:auto;
+            height:300px;
             
         }
         .stats{
@@ -78,9 +93,54 @@
             margin-top:0px;
             font-size:14px;
         }
+        img{
+            display:block;
+        }
         .footer{
-            background-color: blueviolet;
             height:50px;
+            margin-top:50px;
+            text-align: center;
+            padding-top:15px;
+        }
+        .div1 button{
+            font-size:14px;
+            border:none;
+            background-color:white;
+            cursor:pointer;
+        }
+        .div1 button:hover{
+            background-color:red;
+            font-size:14px;
+        }
+        .div2 button{
+            font-size:14px;
+            border:none;
+            background-color:white;
+            cursor:pointer;
+        }
+        .div2 button:hover{
+            background-color:red;
+            font-size:14px;
+        }
+        .div3 button{
+            font-size:14px;
+            border:none;
+            background-color:white;
+            cursor:pointer;
+        }
+        .div3 button:hover{
+            background-color:red;
+            font-size:14px;
+        }
+        .div4 button{
+            font-size:14px;
+            border:none;
+            background-color:white;
+            cursor:pointer;
+        }
+        .div4 button:hover{
+            background-color:red;
+            font-size:14px;
         }
 
     </style>
@@ -93,10 +153,10 @@
         <div class="header-right"></div>
     </div>
     <div class="nav">
-        <div class="div1"><h3>Phim hoạt hình</h3></div>
-        <div class="div2"><h3>Phim hoạt hình yêu thích</h3></div>
-        <div class="div3"><h3>Nhân vật hoạt hình</h3></div>
-        <div class="div4"><h3>Góp ý</h3></div>
+        <div class="div1"><button><h3>Phim hoạt hình </h3></button></div>
+        <div class="div2"><button><h3>Phim hoạt hình yêu thích</h3></button></div>
+        <div class="div3"><button><h3>Nhân vật hoạt hình</h3></button></div>
+        <div class="div4"><button><h3>Góp ý</h3></button></div>
     </div>
     <div class="main">
         <div class="left">
@@ -122,11 +182,18 @@
             </div>
         </div>
         <div class="right">
-            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/965230/capsule_616x353.jpg?t=1630580313" alt="ảnh 1" width="600px" height="auto">
-            <p class="title">Thế Giới Doraemon</p>
+            <video controls>
+                <source src="https://www.youtube.com/watch?v=0P6LKixnzoU&t=2s"  type="video">
+            </video>
+            <h3 class="title">Doraemon Chuyến thám hiểm mặt trăng</h3>
             <p class="stats"> &#183; 3.6M views</p>
+            <p>
+                Trong "Doraemon: Nobita và Chuyến Thám Hiểm Mặt Trăng", Nobita ở trường tuyên bố với mọi người rằng "có con thỏ trên Mặt Trăng", cậu đã bị mọi người chê cười và Doraemon lấy ra huy hiệu "Thành viên Câu lạc bộ dị thuyết" tạo ra vương quốc Thỏ trên Mặt Trăng. Một ngày nọ có một cậu bé chuyển trường đến lớp Nobita học. Nhóm Nobita đã cùng với cậu bé đã có chuyến phiêu lưu đến vương quốc Thỏ. Trong đêm có một cô gái kì lạ xuất hiện là Lunna và cuộc hành trình đầy gam go và khó khăn của nhóm Nobita trên con đường khám phá mặt trăng cũng như chống lại ác nhân Diabolo cùng tên hầu cận gian manh Goddard.
+            </p>
         </div>
     </div>
-    <div class="footer"></div>
+    <div class="footer">
+        <h3>&copy; 2017 - Thiết kế Website bởi Yanken</h3>
+    </div>
 </body>
 </html>
