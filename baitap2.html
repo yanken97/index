@@ -117,7 +117,6 @@
         .body {
             display: grid;
             grid-template-columns: 250px 1fr 200px;
-            background-color: pink;
             height: 500px;
 
         }
@@ -131,6 +130,11 @@
             text-align: center;
             padding-top:10px;
             
+        }
+        .middle{
+            margin-left:6px;
+            margin-right:6px;
+            font-family: Roboto;
         }
         .right{
             background-color:rgb(233, 231, 231);
@@ -147,7 +151,12 @@
         }
 
         .footer {
-            background-color: brown;
+            background-color: black;
+            color:#ccc;
+            font-family: Roboto;
+            margin-top:0px;
+            padding-top:25px;
+            text-align: center;
             height: 70px;
         }
     </style>
@@ -172,13 +181,26 @@
             <a href="#">Link</a>
             <a href="#">Link</a>
         </div>
-        <div class="middle"></div>
+        <div class="middle">
+            <h1>Welcome</h1>
+            <p>Chào mừng đến với trang web của tôi</p>
+            <hr>
+            <h1>Test</h1>
+            <form>
+                <input type="text" placeholder="Hãy gõ vào điều bạn muốn" name="q">
+                <input type="submit" value="search">
+            </form>
+            
+
+        </div>
         <div class="right">
             <div class="r1"><button>ADS</button></div>
             <div class="r1"><button>ADS</button></div>
         </div>
     </div>
-    <div class="footer"></div>
+    <div class="footer">
+        <p>Footer Text</p>
+    </div>
 
 </body>
 
