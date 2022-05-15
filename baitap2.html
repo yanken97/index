@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        
+        .header {
+            display: flex;
+            flex-direction: row;
+            background-color:black;
+            height: 35px;
+            font-family: Roboto;
+            padding-top:12px;
+            
+
+
+        }
+
+        .header-left {
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            text-align:center;
+
+        }
+
+        .logo {
+            width: 100px;
+        
+            
+        }
+        .logo button{
+            font-size:16px;
+            border:none;
+            background-color:black;
+            color:gray;
+        }
+        .logo button:hover{
+            color:white;
+        }
+
+        .home {
+            width: 100px;
+            
+        }
+        .home button{
+            font-size:16px;
+            border:none;
+            background-color:black;
+            color:gray;
+        }
+        .home button:hover{
+            color:white;
+        }
+
+        .about {
+            width: 100px;
+        }
+        .about button{
+            font-size:14px;
+            border:none;
+            background-color:black;
+            color:gray;
+        }
+        .about button:hover{
+            color:white;
+        }
+
+        .project {
+            width: 100px;
+        }
+        .project button{
+            font-size:14px;
+            border:none;
+            background-color:black;
+            color:gray;
+        }
+        .project button:hover{
+            color:white;
+        }
+
+        .contact {
+            width: 100px;
+        }
+        .contact button{
+            font-size:14px;
+            border:none;
+            background-color:black;
+            color:gray;
+        }
+        .contact button:hover{
+            color:white;
+        }
+
+        .header-right {
+            width: 20%;
+            text-align:right;
+
+        }
+        .header-right button{
+            font-size:14px;
+            border:none;
+            background-color:black;
+            color:gray;
+        }
+        .header-right button:hover{
+            color:white;
+        }
+
+        .body {
+            display: grid;
+            grid-template-columns: 250px 1fr 200px;
+            background-color: pink;
+            height: 500px;
+
+        }
+        .left{
+            background-color:rgb(233, 231, 231);
+            padding-top:20px;
+        }
+        .left a{
+            display:block;
+            text-decoration: none;
+            text-align: center;
+            padding-top:10px;
+            
+        }
+        .right{
+            background-color:rgb(233, 231, 231);
+            text-align: center;
+            padding-top:15px;
+        }
+        .r1 button{
+            font-size:20px;
+            width:160px;
+            height:60px;
+            border-radius:5px;
+            margin-top:10px;
+            
+        }
+
+        .footer {
+            background-color: brown;
+            height: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-left">
+            <div class="logo"><button>Logo</button></div>
+            <div class="home"><button>Home</button></div>
+            <div class="about"><button>About</button></div>
+            <div class="project"><button>Project</button></div>
+            <div class="contact"><button>Contact</button></div>
+        </div>
+        <div class="header-right">
+            <button>Login</button>
+        </div>
+    </div>
+    <div class="body">
+        <div class="left">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </div>
+        <div class="middle"></div>
+        <div class="right">
+            <div class="r1"><button>ADS</button></div>
+            <div class="r1"><button>ADS</button></div>
+        </div>
+    </div>
+    <div class="footer"></div>
+
+</body>
+
+</html>
