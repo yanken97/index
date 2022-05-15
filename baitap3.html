@@ -13,71 +13,88 @@
             
         
         }
-        .picture1{
-            width:250px;
+        .picture{
+            width:260px;
             display:inline-block;
+            margin-left:35px;
         }
-        .picture1:hover{
-            border:1px solid #CCC;
-        }
-        .picture2{
-            width:250px;
-            display:inline-block;
-        }
-        .picture2:hover{
-            border:1px solid #CCC;
-        }
-        .picture3{
-            width:250px;
-            display:inline-block;
-        }
-        .picture3:hover{
-            border:1px solid #CCC;
-        }
-        .picture4{
-            width:250px;
-            display:inline-block;
-        }
-        .picture4:hover{
+        .picture:hover{
             border:1px solid #CCC;
         }
         .text{
             display:block;
             border:1px solid #CCC;
-            width:248px;
-            height:50px;
+            width:258px;
+            height:40px;
             text-align: center;
             font-size:16px;
             font-family: Roboto;
-            padding-top:5px;
+            padding-top:25px;
         
+        }
+        .auth{
+            font-family: Roboto;
         }
         .fjords{
             display:block;
             
         }
+        @media only screen and (max-width: 700px){
+            .picture{
+            
+                margin-top:10px;
+                width:240px;
+            }
+        }
+        @media only screen and (max-width:500px){
+            .picture{
+                width:100%;
+            }
+            .header{
+                font-size:12px;
+            }
+            .text{
+                font-size:14px;
+            }
+            .auth{
+                font-size:12px;
+            }
+        }
+    
+            
     </style>
 </head>
 <body>
-    <div class="all">
-        <div class="picture1">
-            <a href="#"><img class="fjords" src="img_fjords.jpeg" alt="1" width="250" height="200"></a>
-            <div class="text">Add a description of the image here</div>
-        </div>
-        <div class="picture2">
-            <a href="#"><img class="fjords" src="img_forest.jpeg" alt="2" width="250" height="200"></a>
-            <div class="text">Add a description of the image here</div>
-        </div>
-        <div class="picture3">
-            <a href="#"><img class="fjords" src="img_lights.jpeg" alt="3" width="250" height="200"></a>
-            <div class="text">Add a description of the image here</div>
-        </div>
-        <div class="picture4">
-            <a href="#"><img class="fjords" src="img_mountains.jpeg" alt="4" width="250" height="200"></a>
-            <div class="text">Add a description of the image here</div>
-        </div>
-
+    <div class="header">
+        <h1>
+            Responsive Image Gallery
+        </h1>
+        <h3>
+            Resize the browser window to see the effect.
+        </h3>
     </div>
-    
+
+    <div class="picture">
+        <a href="#"><img class="fjords" src="img_fjords.jpeg" alt="1" width="260" height="200"></a>
+        <div class="text">Add a description of the image here</div>
+    </div>
+    <div class="picture">
+        <a href="#"><img class="fjords" src="img_forest.jpeg" alt="2" width="260" height="200"></a>
+        <div class="text">Add a description of the image here</div>
+    </div>
+    <div class="picture">
+        <a href="#"><img class="fjords" src="img_lights.jpeg" alt="3" width="260" height="200"></a>
+        <div class="text">Add a description of the image here</div>
+    </div>
+    <div class="picture">
+        <a href="#"><img class="fjords" src="img_mountains.jpeg" alt="4" width="260" height="200"></a>
+        <div class="text">Add a description of the image here</div>
+    </div>
+    <div class="auth">
+        <p>
+            This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).
+        </p>
+    </div>
+
 </body>
 </html>
