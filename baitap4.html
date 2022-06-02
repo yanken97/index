@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            display:flex;
+
+        }
+        .logo{
+            flex:30%;
+            height:100px;
+            background-color: blue;
+            margin:5px;
+
+        }
+        .banner{
+            flex:70%;
+            height:100px;
+            background-color: blue;
+            margin:5px;
+            
+        }
+        .nav{
+            background-color:black;
+            height:50px;
+
+            display:flex;
+            justify-content: space-between;
+            color:white;
+            margin:5px;
+            line-height:50px;
+            padding-left:20px;
+            padding-right:20px;
+
+        }
+        .menu{
+            display:flex;
+
+        }
+        .menu-item{
+            margin-left:10px;
+        }
+        .main{
+            display:flex;
+            flex-direction: row;
+            height:500px;
+            margin-left:5px;
+            margin-right:5px;
+            
+        }
+        .main-left{
+            flex:20%;
+            border:1px solid #CCC;
+            margin-left:5px;
+            margin-right:5px;
+            
+        }
+        .main-middle{
+            flex:60%;
+            border:1px solid #CCC;
+            margin-left:5px;
+            margin-right:5px;
+        }
+        .main-right{
+            flex:20%;
+            border:1px solid #CCC;
+            margin-left:5px;
+            margin-right:5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo"> Logo</div>
+        <div class="banner"> Banner</div>
+    </div>
+    <div class="nav">
+        <div class="menu">
+            <div class="menu-item">Home</div>
+            <div class="menu-item">About</div>
+            <div class="menu-item">Contact</div>
+        </div>
+        <div class="loggin">
+            <button>Login</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-left"></div>
+        <div class="main-middle"></div>
+        <div class="main-right"></div>
+    </div>
+
+
+    
+</body>
+</html>
